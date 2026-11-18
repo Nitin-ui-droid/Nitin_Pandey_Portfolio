@@ -928,18 +928,25 @@
 
                                 </div>
 
-                                <div class="window-content">
+                                <div class="ride-dashboard">
 
-                                    <div class="ui-line large"></div>
-                                    <div class="ui-line"></div>
-                                    <div class="ui-line short"></div>
+                                    <div class="ride-map" aria-hidden="true">
+                                        <span class="map-road road-one"></span>
+                                        <span class="map-road road-two"></span>
+                                        <span class="map-road road-three"></span>
+                                        <span class="map-route"></span>
+                                        <span class="map-pin pickup-pin"><i class="fa-solid fa-circle"></i></span>
+                                        <span class="map-pin destination-pin"><i class="fa-solid fa-location-dot"></i></span>
+                                    </div>
 
-                                    <div class="ui-box-row">
-
-                                        <div></div>
-                                        <div></div>
-                                        <div></div>
-
+                                    <div class="ride-summary">
+                                        <span class="ride-status"><i></i> RIDE MATCHED</span>
+                                        <strong>City commute</strong>
+                                        <span class="ride-route-label">Pickup <b>→</b> Destination</span>
+                                        <div class="ride-driver">
+                                            <span class="driver-avatar"><i class="fa-solid fa-user"></i></span>
+                                            <span><b>Nearby rider</b><small>4 min away</small></span>
+                                        </div>
                                     </div>
 
                                 </div>
@@ -958,9 +965,9 @@
                                 </h3>
 
                                 <p>
-                                    A modern ride-sharing platform designed
-                                    to connect people travelling on similar
-                                    routes.
+                                    A full-stack ride-sharing platform that helps
+                                    travellers discover compatible co-riders, match
+                                    routes and plan shared journeys.
                                 </p>
 
                             </div>
@@ -1000,105 +1007,43 @@
                             </span>
 
                             <span class="project-type">
-                                AI / ML
+                                FINTECH / FULL STACK
                             </span>
 
                         </div>
 
 
-                        <div class="project-visual ai-project">
+                        <div class="project-visual finora-project">
 
-                            <div class="ai-orbit">
-
-                                <div class="ai-core">
-                                    AI
-                                </div>
-
-                                <span class="orbit-dot dot-one"></span>
-                                <span class="orbit-dot dot-two"></span>
-                                <span class="orbit-dot dot-three"></span>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-info">
-
-                            <div>
-
-                                <h3>
-                                    Emotion Detector
-                                </h3>
-
-                                <p>
-                                    An intelligent application that analyzes
-                                    text and voice to identify emotions.
-                                </p>
-
-                            </div>
-
-                            <a href="#" class="project-arrow" aria-label="View Emotion Detector project">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-
-                        </div>
-
-
-                        <div class="project-tech">
-
-                            <span>Python</span>
-                            <span>ML</span>
-                            <span>NLP</span>
-                            <span>Streamlit</span>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- =====================================
-                 PROJECT 03
-                 ===================================== -->
-
-                    <article class="project-card">
-
-                        <div class="project-card-top">
-
-                            <span class="project-number">
-                                03
-                            </span>
-
-                            <span class="project-type">
-                                MACHINE LEARNING
-                            </span>
-
-                        </div>
-
-
-                        <div class="project-visual spam-project">
-
-                            <div class="spam-interface">
-
-                                <div class="spam-header">
-                                    MESSAGE ANALYZER
-                                </div>
-
-                                <div class="message-line"></div>
-                                <div class="message-line medium"></div>
-                                <div class="message-line short"></div>
-
-                                <div class="spam-result">
-                                    <span>
-                                        ANALYZED
+                            <div class="finora-dashboard">
+                                <div class="finora-dashboard-header">
+                                    <span class="finora-brand">
+                                        <img src="assets/finora-logo.svg" alt="Finora logo">
+                                        FINORA
                                     </span>
-
-                                    <strong>
-                                        SAFE
-                                    </strong>
+                                    <span class="finora-live"><i></i> LIVE OVERVIEW</span>
                                 </div>
 
+                                <div class="finora-net-worth">
+                                    <span>Total net worth</span>
+                                    <strong>₹8,45,200</strong>
+                                    <small><i class="fa-solid fa-arrow-trend-up"></i> +18.4% this year</small>
+                                </div>
+
+                                <div class="finora-metrics">
+                                    <div><span>Monthly savings</span><strong>₹38,400</strong></div>
+                                    <div><span>Health index</span><strong>94 <small>/ 100</small></strong></div>
+                                </div>
+
+                                <div class="finora-chart">
+                                    <div class="finora-chart-heading"><span>WEALTH TRAJECTORY</span><b>6 MONTHS</b></div>
+                                    <div class="finora-chart-bars" aria-hidden="true">
+                                        <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                                    </div>
+                                    <div class="finora-chart-labels" aria-hidden="true">
+                                        <span>APR</span><span>MAY</span><span>JUN</span><span>JUL</span><span>AUG</span><span>SEP</span><span>OCT</span>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -1109,17 +1054,19 @@
                             <div>
 
                                 <h3>
-                                    Spam Detection
+                                    Finora
                                 </h3>
 
                                 <p>
-                                    Machine learning based system for
-                                    detecting unwanted messages and emails.
+                                    An intelligent personal finance platform that brings
+                                    expenses, savings, budgets and net-worth insights
+                                    together in one clear financial cockpit.
                                 </p>
 
                             </div>
 
-                            <a href="#" class="project-arrow" aria-label="View Spam Detection project">
+                            <a href="https://finora-vert-two.vercel.app/" class="project-arrow"
+                                target="_blank" rel="noopener noreferrer" aria-label="View Finora project">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
 
@@ -1128,95 +1075,15 @@
 
                         <div class="project-tech">
 
-                            <span>Python</span>
-                            <span>Scikit-learn</span>
-                            <span>NLP</span>
+                            <span>Fintech</span>
+                            <span>AI Insights</span>
+                            <span>Wealth Analytics</span>
 
                         </div>
 
                     </article>
 
 
-
-                    <!-- =====================================
-                 PROJECT 04
-                 ===================================== -->
-
-                    <article class="project-card project-wide">
-
-                        <div class="project-card-top">
-
-                            <span class="project-number">
-                                04
-                            </span>
-
-                            <span class="project-type">
-                                PRODUCTIVITY
-                            </span>
-
-                        </div>
-
-
-                        <div class="project-visual expense-project">
-
-                            <div class="expense-chart">
-
-                                <div class="chart-bar bar-one"></div>
-                                <div class="chart-bar bar-two"></div>
-                                <div class="chart-bar bar-three"></div>
-                                <div class="chart-bar bar-four"></div>
-                                <div class="chart-bar bar-five"></div>
-
-                            </div>
-
-                            <div class="expense-total">
-
-                                <span>
-                                    MONTHLY OVERVIEW
-                                </span>
-
-                                <strong>
-                                    SMART
-                                </strong>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="project-info">
-
-                            <div>
-
-                                <h3>
-                                    Smart Expense Manager
-                                </h3>
-
-                                <p>
-                                    A personal finance concept featuring
-                                    income tracking, expenses, reports,
-                                    budgets and intelligent suggestions.
-                                </p>
-
-                            </div>
-
-                            <a href="#" class="project-arrow" aria-label="View Smart Expense Manager project">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-
-                        </div>
-
-
-                        <div class="project-tech">
-
-                            <span>Web</span>
-                            <span>JavaScript</span>
-                            <span>Charts</span>
-                            <span>AI</span>
-
-                        </div>
-
-                    </article>
 
                 </div>
 

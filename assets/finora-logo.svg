@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="finora-bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset=".48" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="finora-leaf" x1="18" y1="21" x2="52" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset=".5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#finora-bg)"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" stroke="white" stroke-opacity=".18"/>
+  <path d="M12 54V22C12 13.2 19.2 6 28 6H58C58 20.4 46.4 32 32 32H27C20.4 32 16 37.2 16 43.5V54H12Z" fill="white" fill-opacity=".96"/>
+  <path d="M18 50V37.5C18 28.4 25.4 21 34.5 21H52C49.2 30.4 40.5 37 30.7 37H27C22 37 18 42 18 47V50Z" fill="url(#finora-leaf)"/>
+  <path d="M18 50C23 38 31 30 45 23" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-opacity=".9"/>
+</svg>
